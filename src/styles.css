@@ -10,3 +10,15 @@ ul > li:first-child > .up-button,
 ul > li:last-child > .down-button {
   display: none;
 }
+
+li {
+  margin: 10px 0;
+}
+
+.item-button {
+  margin-left: 10px;
+}
+
+.input {
+  margin: 10px 0;
+}
