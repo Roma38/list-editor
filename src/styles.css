@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+}
+
+ul {
+  text-align: left;
+}
+
+ul > li:first-child > .up-button,
+ul > li:last-child > .down-button {
+  display: none;
+}
