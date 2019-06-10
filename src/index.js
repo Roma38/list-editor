@@ -16,7 +16,7 @@ function App() {
         {listItems.map((item, index) => (
           <ListItem
             title={item}
-            key={index}
+            key={item}
             index={index}
             moveUp={index => {
               const newListItems = [...listItems];
